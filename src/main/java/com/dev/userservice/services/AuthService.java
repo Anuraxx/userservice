@@ -141,6 +141,8 @@ public class AuthService {
 //            the token has expired
 //        }
 
+        // Break for 5 minutes: 8:23 -> 8:28
+
         return SessionStatus.ACTIVE;
     }
 
